@@ -3075,7 +3075,7 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
 /*https://github.com/alanshaw/markdown-pdf/issues/117*/
 
 td, th {
-    border: 1px solid grey
+    border: 6px solid grey
 }
 
 td,th{
