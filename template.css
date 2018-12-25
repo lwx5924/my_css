@@ -293,7 +293,8 @@ a:focus {
   width: 780px;
 }
 .span9 {
-  width: 700px;
+ /* width: 700px;*/
+ width: 90%;
 }
 .span8 {
   width: 620px;
