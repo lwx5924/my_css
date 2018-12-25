@@ -51,13 +51,15 @@ $endfor$
   <div class="container">
     <div class="row">
       $if(toc)$
-      <div id="$idprefix$TOC" class="span3">
-        <div class="well toc">
-        <ul>
-          <li class="nav-header">Table of Contents $title$ ^_^</li>
-        </ul>
-        $toc$
-        </div>
+      <div id="$idprefix$TOC" class="span3_parent">
+          <div id="$idprefix$TOC" class="span3">
+              <div class="well toc">
+                  <ul>
+                      <li class="nav-header">Table of Contents $title$ ^_^</li>
+                  </ul>
+                  $toc$
+              </div>
+          </div>
       </div>
       $endif$
       <div class="span$if(toc)$9$else$12$endif$">

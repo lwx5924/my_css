@@ -310,10 +310,13 @@ a:focus {
 .span4 {
   width: 300px;
 }
+.span3_parent {
+   float: left;
+   width: 19%;
+}
 .span3 {
-   float: right;
     position: fixed;
-    width: 220px;
+    /*width: 220px; */
     left: 0px;
     top: 60px;
     background: rgba(229, 232, 232, 0.5);
