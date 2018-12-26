@@ -2605,6 +2605,7 @@ table th[class*="span"],
   .span9 {
     /*width: 870px; */
     width: 80%;
+    float:right;
   }
   .span8 {
     width: 770px;
