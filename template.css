@@ -230,6 +230,7 @@ body {
   line-height: 20px;
   color: #333333;
   background-color: #dddddd;
+  width: 100%;
 }
 a {
   color: #0088cc;
@@ -2606,6 +2607,7 @@ table th[class*="span"],
     /*width: 870px; */
     width: 80%;
     float:right;
+    margin-left: 1px;
   }
   .span8 {
     width: 770px;
