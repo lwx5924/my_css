@@ -313,7 +313,7 @@ a:focus {
 }
 .span3_parent {
    float: left;
-   width: 16%;
+   width: 19%;
 }
 .span3 {
     position: fixed;
@@ -325,7 +325,6 @@ a:focus {
     padding: 5px;
     overflow: scroll;
     height: 800px;
-    margin-left:1px;
 
     /*  width: 220px; */
 }
@@ -2258,11 +2257,7 @@ table th[class*="span"],
     width: 600px;
   }
   .span9 {
-    /*width: 538px; */
-      width: 80%;
-      float:right;
-      margin-left: 1px;
-
+    width: 538px;
   }
   .span8 {
     width: 476px;
@@ -2590,8 +2585,7 @@ table th[class*="span"],
   .navbar-static-top .container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
-    /*width: 1170px; */
-      width: 100px;
+    width: 1170px;
   }
   .span12 {
     width: 1170px;
