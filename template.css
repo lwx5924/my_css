@@ -231,6 +231,7 @@ body {
   color: #333333;
   background-color: #dddddd;
   width: 100%;
+  min-width:1280px;
 }
 a {
   color: #0088cc;
