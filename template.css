@@ -2591,7 +2591,7 @@ table th[class*="span"],
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
     /*width: 1170px; */
-      width: 100px;
+      width: 100%;
   }
   .span12 {
     width: 1170px;
@@ -2623,6 +2623,7 @@ table th[class*="span"],
   }
   .span3 {
     width: 270px;
+    margin-left:1px;
   }
   .span2 {
     width: 170px;
