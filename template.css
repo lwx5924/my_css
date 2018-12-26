@@ -231,7 +231,7 @@ body {
   color: #333333;
   background-color: #dddddd;
   width: 100%;
-  min-width:1280px;
+  min-width:1580px; /*set for the mac screen */
 }
 a {
   color: #0088cc;
