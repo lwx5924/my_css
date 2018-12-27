@@ -3140,4 +3140,9 @@ td,th{
     border-color:#287EC7;
 }
 
-
+/* for toc display active */
+.active{
+	color: white;
+	background-color: rgba(100,100,100,1);
+	border-left: thick solid rgba(0,255,0,0.5);
+}
