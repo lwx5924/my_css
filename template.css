@@ -3112,6 +3112,7 @@ td, th {
 td,th{
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
+  overflow: scroll;
 //  width: 100%;
 }
 
