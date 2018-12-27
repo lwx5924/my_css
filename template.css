@@ -3113,7 +3113,7 @@ td,th{
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   overflow: scroll;
-//  width: 100%;
+  max-width: 1800px;
 }
 
 /*
