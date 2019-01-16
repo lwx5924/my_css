@@ -3142,10 +3142,15 @@ td,th{
     border-color:#287EC7;
 }
 
-highlight{
-  background-color: #ff0000;
+hl{
+   /*background-color: #ff0000;*/
     border-style:solid;
-    border-color:#28FFC7;
+    border-color:#287EC7;
+}
+
+hl-red{
+    border-style:solid;
+    border-color:#FF0000;
 }
 
 
