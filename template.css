@@ -3149,11 +3149,12 @@ hl{
 }
 
 mytag {
-	background-color: rgba(100,255,100,1);
-    border-style:solid;
-    border: 1px;
+	/*background-color: rgba(100,255,100,1);*/
     font-size: 36px;
-    color: #ff0000;
+    color: #0000ff;
+
+    border-style:solid;
+    /*border: 2px;*/
     border-color:#287EC7;
 }
 
