@@ -3148,8 +3148,8 @@ hl{
     border-color:#287EC7;
 }
 
-mytag{
-   /*background-color: #ff0000;*/
+mytag {
+	background-color: rgba(100,255,100,1);
     border-style:solid;
     border: 1px;
     font-size: 36px;
