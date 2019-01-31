@@ -3150,7 +3150,7 @@ hl{
 
 mytag {
 	background-color: rgba(100,255,100,1);
-    font-size: 24px;
+    /*font-size: 24px; */
     color: #ff0000;
 
     border-style:double;
