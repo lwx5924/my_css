@@ -3148,6 +3148,14 @@ hl{
     border-color:#287EC7;
 }
 
+mytag{
+   /*background-color: #ff0000;*/
+    border-style:solid;
+    border: 1px;
+    font-size: 36px;
+    border-color:#287EC7;
+}
+
 hl-red{
     border-style:solid;
     border-color:#FF0000;
