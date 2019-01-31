@@ -3151,10 +3151,10 @@ hl{
 mytag {
 	background-color: rgba(100,255,100,1);
     font-size: 24px;
-    color: #0000ff;
+    color: #ff0000;
 
     border-style:solid;
-    /*border: 2px;*/
+    border: 2px;
     border-color:#287EC7;
 }
 
