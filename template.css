@@ -3153,7 +3153,7 @@ mytag {
     font-size: 24px;
     color: #ff0000;
 
-    border-style:solid;
+    border-style:double;
     /*border: 2px;a */
     border-color:#287EC7;
 }
