@@ -3149,8 +3149,8 @@ hl{
 }
 
 mytag {
-	/*background-color: rgba(100,255,100,1);*/
-    font-size: 36px;
+	background-color: rgba(100,255,100,1);
+    font-size: 24px;
     color: #0000ff;
 
     border-style:solid;
