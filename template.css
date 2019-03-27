@@ -109,7 +109,7 @@ img {
   /* Part 1: Set a maxium relative to the parent */
 
   /*width: auto\9; */
-  width: 100%;
+  /*width: 100%; */
   /* IE7-8 need help adjusting responsive images */
 
   height: auto;
