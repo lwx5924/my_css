@@ -105,11 +105,11 @@ sub {
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
 
-  /*max-width: 100%; */
+  max-width: 100%; 
   /* Part 1: Set a maxium relative to the parent */
 
   /*width: auto\9; */
-  width: 100%;
+  /*width: 100%; */
   /* IE7-8 need help adjusting responsive images */
 
   height: auto;
@@ -225,11 +225,14 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Fira Code";*/
+  font-family: "Fira Code", "Helvetica Neue", Helvetica, Arial, sans-serif; 
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #dddddd;
+  background-color: #ffffff;
+  width: 100%;
+  min-width:1580px; /*set for the mac screen */
 }
 a {
   color: #0088cc;
@@ -281,7 +284,8 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  /*width: 940px; */
+  width: 100%;
 }
 .span12 {
   width: 940px;
@@ -313,7 +317,7 @@ a:focus {
 }
 .span3_parent {
    float: left;
-   width: 19%;
+   width: 16%;
 }
 .span3 {
     position: fixed;
@@ -325,6 +329,7 @@ a:focus {
     padding: 5px;
     overflow: scroll;
     height: 800px;
+    margin-left:1px;
 
     /*  width: 220px; */
 }
@@ -852,7 +857,7 @@ address {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family:"Fira Code", Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -1517,7 +1522,9 @@ table th[class*="span"],
   clear: both;
 }
 .navbar .container {
-  width: auto;
+  /* width: auto; */
+  width: 100%;
+
 }
 .nav-collapse.collapse {
   height: auto;
@@ -1614,7 +1621,7 @@ table th[class*="span"],
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Fira Code","Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -1657,7 +1664,8 @@ table th[class*="span"],
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  /* width: 940px; */
+    width: 100%;
 }
 .navbar-fixed-top {
   top: 0;
@@ -2257,7 +2265,11 @@ table th[class*="span"],
     width: 600px;
   }
   .span9 {
-    width: 538px;
+    /*width: 538px; */
+      width: 80%;
+      float:right;
+      margin-left: 1px;
+
   }
   .span8 {
     width: 476px;
@@ -2585,7 +2597,8 @@ table th[class*="span"],
   .navbar-static-top .container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
-    width: 1170px;
+    /*width: 1170px; */
+      width: 100%;
   }
   .span12 {
     width: 1170px;
@@ -2597,7 +2610,10 @@ table th[class*="span"],
     width: 970px;
   }
   .span9 {
-    width: 870px;
+    /*width: 870px; */
+    width: 80%;
+    float:right;
+    margin-left: 1px;
   }
   .span8 {
     width: 770px;
@@ -2616,6 +2632,7 @@ table th[class*="span"],
   }
   .span3 {
     width: 270px;
+    margin-left:1px;
   }
   .span2 {
     width: 170px;
@@ -3096,7 +3113,8 @@ td, th {
 td,th{
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-//  width: 100%;
+  overflow: scroll;
+  max-width: 1800px;
 }
 
 /*
@@ -3118,4 +3136,37 @@ td,th{
   color: white;
 }
 
+#highlight{
+ /* background-color: #ff0000; */
+    border-style:solid;
+    border-color:#287EC7;
+}
 
+hl{
+   /*background-color: #ff0000;*/
+    border-style:solid;
+    border-color:#287EC7;
+}
+
+mytag {
+	background-color:#c1a173 ;
+    /*font-size: 24px; */
+    color: #15a22; 
+
+    border-style:double;
+    /*border: 2px;a */
+    border-color:#596032;
+}
+
+hl-red{
+    border-style:solid;
+    border-color:#FF0000;
+}
+
+
+/* for toc display active */
+.active{
+	color: white;
+	background-color: rgba(100,100,100,1);
+	border-left: thick solid rgba(0,255,0,0.5);
+}
