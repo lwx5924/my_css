@@ -312,8 +312,8 @@ a:focus {
   width: 300px;
 }
 .span3_parent {
-   float: left;
-   width: 19%;
+   /*float: left;*/
+   /*width: 19%;*/
 }
 .span3 {
     /*position: fixed; */
@@ -324,7 +324,7 @@ a:focus {
     border: 2px solid #0096d6;
     padding: 5px;
     overflow: scroll;
-    height: 800px;
+    height: 360px;
 
     /*  width: 220px; */
 }
