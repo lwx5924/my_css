@@ -316,8 +316,8 @@ a:focus {
    width: 19%;
 }
 .span3 {
-    position: fixed;
-    /*width: 220px; */
+    /*position: fixed; */
+    width: 520px; 
     left: 0px;
     top: 60px;
     background: rgba(229, 232, 232, 0.5);
