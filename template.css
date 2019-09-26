@@ -676,7 +676,26 @@ h3 {
 h1 {
   font-size: 38.5px;
   color: #ff0000;
+  text-align: center;
+  padding: .3em 0; 
 }
+
+h1 {
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd; 
+  /*background-image: linear-gradient(45deg,  rgba(155,0,0,0.3), rgba(1.0,1.0,0,0.75), rgba(255,172,0.4,0.3)); */
+  background-image: linear-gradient(135deg, red 0%, orange 10%, orange 30%, yellow 50%, yellow 70%, green 90%, green 100%);
+}
+h1:before {
+  content: "\2015  ";
+  font-weight: normal;
+  color: #aaa; }
+
+h1:after {
+  content: "  \2015";
+  font-weight: normal;
+  color: #aaa; }
+
 h2 {
   font-size: 31.5px;
   color: #0000ff;
