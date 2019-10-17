@@ -840,7 +840,59 @@ ml2:before {
 }
 
 
+walk1{ 
+    clear: both;
+  display: block;
 
+	content: "";
+  float:left;
+   width: 100%; 
+   height: 36px; 
+   background:url(./gif/mario2.gif) no-repeat;
+   background-size: 36px 36px; 
+   position:relative; 
+
+  /* for debug*/
+   /*
+   border:1px solid red;  
+   */
+
+   animation-name:chan_run;
+   animation-duration: 6s;
+   animation-timing-function:  ease-in-out; 
+   animation-iteration-count: infinite;
+   animation-fill-mode:backwards;
+   animation-direction: alternate;
+
+   /* animation:chan_run 6s step-start infinite; */
+   -moz-animation:chan_run 6s step_start infinite;
+   -webkit-animation:chan_run 6s step_start infinite;
+ }
+ @keyframes chan_run{
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 0;}
+  }
+  @-moz-keyframes chan_run{
+    0% {background-position: 0 0;}
+    14.3% {background-position: 180px 0;}
+    28.6% {background-position: 360px 0;}
+    42.9% {background-position: 540px 0;}
+    57.2% {background-position: 720px 0;}
+    71.5% {background-position: 900px 0;}
+    85.8% {background-position: 1080px 0;}
+    100% {background-position: 0 0;}
+  }
+  @-webket-keyframes chan_run{
+    0% {background-position: 0 0;}
+    14.3% {background-position: 180px 0;}
+    28.6% {background-position: 360px 0;}
+    42.9% {background-position: 540px 0;}
+    57.2% {background-position: 720px 0;}
+    71.5% {background-position: 900px 0;}
+    85.8% {background-position: 1080px 0;}
+    100% {background-position: 0 0;}
+  }
+  
 
 
 
