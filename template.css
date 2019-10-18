@@ -841,7 +841,7 @@ ml2:before {
 
 
 walk1{ 
-    clear: both;
+   clear: both;
   display: block;
 
 	content: "";
@@ -856,6 +856,7 @@ walk1{
    /*
    border:1px solid red;  
    */
+   border:solid 1px transparent;
 
    animation-name:chan_run;
    animation-duration: 6s;
