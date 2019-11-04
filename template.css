@@ -225,7 +225,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 20px;
   color: #333333;
@@ -652,7 +652,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  font-family: "Hiragino Sans GB",inherit;
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -824,7 +824,7 @@ ml1, ml2{
 	padding: 0 0 5px 0;
 	color: #6B5344;
 	font-weight: normal;
-	font-family: 'Scada', sans-serif;
+	font-family: "Hiragino Sans GB",'Scada', sans-serif;
 	position: relative;
 	text-shadow: 0 2px 0 rgba(255,255,255,0.5);
 	font-size: 30px;
@@ -1047,7 +1047,7 @@ address {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-family: "Hiragino Sans GB", Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 1em;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -1809,7 +1809,7 @@ table th[class*="span"],
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Hiragino Sans GB","Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -3289,7 +3289,7 @@ td, th {
 }
 
 td,th{
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: "Hiragino Sans GB","Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
 //  width: 100%;
 }
