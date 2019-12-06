@@ -3314,42 +3314,8 @@ td,th{
 }
 
 
-mytag {
-	background-color:#c1a173 ;
-    /*font-size: 24px; */
-    color: #15a22; 
+/*
+@import url("https://lwx5924.github.io/mypubcss/mynote.css");
+*/
 
-    border-style:double;
-    /*border: 2px;a */
-    border-color:#596032;
-}
-
-/* fc : font_color */
-/*黄色：专业术语、定义、专有名词*/
-fc_concept {
-  color: #ffb800;
-}
-
-/*number and string*/
-/*2. 橙色：模棱两可词汇、数字、符号*/
-fc_ns {
-  color: #eb6f2b;
-}
-
-/*3. 绿色：人名、书名、观点、看法、对话、引用 */
-fc_others {
-  color: #89c345
-}
-
-/*4. 蓝色：转折词、联结词、提示*/
-
-fc_but {
-  color: #68a7db
-}
-
-/*5. 靛色：方法、方式、技巧 */
-fc_skill {
-  color: #80a1e1;
-}
-
-
+@import url ("./mynote.css");
