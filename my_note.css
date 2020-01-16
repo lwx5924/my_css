@@ -43,3 +43,69 @@ fc-skill {
 }
 
 
+
+
+/*
+All phrase tags:
+
+<em> 	Renders as emphasized text
+<strong> 	Defines important text
+<code> 	Defines a piece of computer code
+<samp> 	Defines sample output from a computer program
+<kbd> 	Defines keyboard input
+<var> 	Defines a variable
+
+pre ?:https://www.w3schools.com/tags/tag_pre.asp
+picture?
+*/
+
+em {
+  color: #ffb800;
+}
+
+
+strong {
+  color : red;
+  font-weight: bold;
+  font-size: 106%;
+}
+
+code {
+  color: #89c345;
+}
+
+var{
+  color : blue;
+  font-style: normal;
+  /*
+  border:red solid thin;
+  */
+  outline-style:solid;
+  outline-width:thin;
+  outline-color:red;
+}
+
+
+kbd{
+  color: #80a1e1;
+  font-size: 106%;
+  box-shadow: inset 0 -2px 0 #c6cbd1;
+  background-color: white;
+}
+/*
+pre {
+  color : red;
+}
+
+*/
+
+
+a:link {color:#F30000;}    /* 未被访问的链接 */
+
+/* 已被访问的链接 */
+a:visited {
+color:#C81E6EDE;
+background-color: grey;
+} 
+a:hover {color:#F707EE;}   /* 鼠标指针移动到链接上 */
+a:active {color:#F707EE;}  /* 正在被点击的链接 */
