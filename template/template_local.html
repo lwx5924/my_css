@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"$if(lang)$ lang="$lang$" xml:lang="$lang$"$endif$>
+
+<head>
+ <meta charset="utf-8">
+<link href="file:///Users/benson/g/my_css/prism.css" rel="stylesheet" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--
+ <script type="text/javascript" src="https://lwx5924.gitee.io/my_css/jquery-3.3.1.min.js"></script>
+ <script type="text/javascript" src="https://lwx5924.gitee.io/my_css/toc_active.js"></script>
+ -->
+
+
+
+
+
+<!--
+Error if adding below font
+<link rel="stylesheet" href="https://lwx5924.gitee.io/my_css/fira_font/fira_code.css">
+
+pandoc olaf1.md -o olaf1.html --highlight-style=tango --template /Users/benson/g/my_css/template.html --css https://lwx5924.gitee.io/my_css/template.css --toc --toc-depth 6 --number-sections --metadata title=olaf --filter mermaid-filter --filter /Users/benson/g/pandocfilters/examples/graphviz.py --self-contained --verbose --log=./p.json
+[INFO] No value for 'lang' was specified in the metadata.
+  It is recommended that lang be specified for this format.
+[INFO] Fetching https://lwx5924.gitee.io/my_css/prism.css...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/fira_code.css...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Light.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Light.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff2/FiraCode-Light.woff2...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff/FiraCode-Light.woff...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/ttf/FiraCode-Light.ttf...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Regular.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Regular.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff2/FiraCode-Regular.woff2...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff/FiraCode-Regular.woff...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/ttf/FiraCode-Regular.ttf...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Medium.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Medium.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff2/FiraCode-Medium.woff2...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff/FiraCode-Medium.woff...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/ttf/FiraCode-Medium.ttf...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Bold.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/eot/FiraCode-Bold.eot...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff2/FiraCode-Bold.woff2...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/woff/FiraCode-Bold.woff...
+[INFO] Fetching https://lwx5924.gitee.io/my_css/fira_font/ttf/FiraCode-Bold.ttf...
+pandoc: Cannot decode byte '\xc8': Data.Text.Internal.Encoding.decodeUtf8: Invalid UTF-8 stream
+-->
+
+  <meta name="generator" content="pandoc" />
+$for(author-meta)$
+  <meta name="author" content="$author-meta$" />
+$endfor$
+$if(date-meta)$
+  <meta name="date" content="$date-meta$" />
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+  <style type="text/css">code{white-space: pre;}</style>
+$if(quotes)$
+  <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+$endif$
+$if(highlighting-css)$
+  <style type="text/css">
+$highlighting-css$
+  </style>
+$endif$
+$for(css)$
+  <link rel="stylesheet" href="$css$" $if(html5)$$else$type="text/css" $endif$/>
+$endfor$
+$if(math)$
+  $math$
+$endif$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+</head>
+<body>
+  $if(title)$
+  <div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="doc-title">$title$</span>
+        <ul class="nav pull-right doc-info">
+          $for(author)$
+          <li><p class="navbar-text">$author$</p></li>
+          $endfor$
+          $if(date)$
+          <li><p class="navbar-text">$date$</p></li>
+          $endif$
+        </ul>
+      </div>
+    </div>
+  </div>
+  $endif$
+  <div class="container">
+    <div class="row">
+      $if(toc)$
+      <div id="$idprefix$TOC" class="span3_parent">
+          <div id="$idprefix$TOC" class="span3">
+              <div class="well toc">
+                  <ul>
+                      <li class="nav-header">Table of Contents $title$ ^_^</li>
+                  </ul>
+                  $toc$
+              </div>
+          </div>
+      </div>
+      $endif$
+      <div class="span$if(toc)$9$else$12$endif$">
+      $for(include-before)$
+      $include-before$
+      $endfor$
+      $body$
+      $for(include-after)$
+      $include-after$
+      $endfor$
+      </div>
+    </div>
+  </div>
+<script src="file:///Users/benson/g/my_css/local_res/prism.js"></script>
+</body/html>
