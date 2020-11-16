@@ -832,11 +832,11 @@ ml1, ml2{
 }
 
 ml1:before {
-  background-image: url(./gif/mario2.gif);
+  background-image: url(../gif/mario2.gif);
 }
 
 ml2:before {
-  background-image: url(./gif/mario.gif);
+  background-image: url(../gif/mario.gif);
 }
 
 
@@ -848,7 +848,7 @@ walk1{
   float:left;
    width: 100%; 
    height: 36px; 
-   background:url(./gif/mario2.gif) no-repeat;
+   background:url(../gif/mario2.gif) no-repeat;
    background-size: 36px 36px; 
    position:relative; 
 
@@ -3316,7 +3316,7 @@ td,th{
 /*
 @import url("https://lwx5924.github.io/my_css/my_note.css");
 */
-@import url("./my_note.css");
+@import url("../my_note.css");
 
 /*
 @import url ("./mynote.css");
