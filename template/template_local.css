@@ -700,9 +700,9 @@ h2 {
 /*  font-size: 31.5px;
   color: #0000ff; */
   margin: 1em 0 0.5em 0;
-  font-weight: 600;
+  font-weight: 601;
   font-family: 'Titillium Web', sans-serif;
-  position: relative;  
+  position: relative;
   font-size: 36px;
   line-height: 40px;
   padding: 15px 15px 15px 15%;
@@ -716,6 +716,37 @@ h2 {
 
 
 }
+
+
+h3:before  {
+  content: "H3";
+
+  font-weight: small;
+  color: #aaa;
+}
+
+h4:before  {
+  content: "H4";
+
+  font-weight: small;
+  color: #aaa;
+}
+
+h5:before  {
+  content: "H5";
+
+  font-weight: small;
+  color: #aaa;
+}
+
+h6:before  {
+  content: "H6";
+
+  font-weight: small;
+  color: #aaa;
+}
+
+
 h3 {
   /*
   font-size: 24.5px;
