@@ -28,7 +28,7 @@ body {
 nav {
   width: 1em;
   margin-left: -1cm;
-  font-size: smaller;
+  /*font-size: smaller; */
   color: grey;
   transition: 0.5s;
   float: left;
@@ -53,6 +53,40 @@ nav h2:before {
 nav h2:after {
   content: " ◂";
 }
+
+
+nav h3:before {
+  content: "≡ ";
+  font-size: 150%;
+}
+nav h3:after {
+  content: " ◂";
+}
+
+nav h4:before {
+  content: "≡ ";
+  font-size: 150%;
+}
+nav h4:after {
+  content: " ◂";
+}
+
+nav h5:before {
+  content: "≡ ";
+  font-size: 150%;
+}
+nav h5:after {
+  content: " ◂";
+}
+
+nav h6:before {
+  content: "≡ ";
+  font-size: 150%;
+}
+nav h6:after {
+  content: " ◂";
+}
+
 nav li {
   margin-left: -0.5em;
   white-space: nowrap;
@@ -215,6 +249,20 @@ function addScript (doc)
 end
 
 ----------------------------
+
+
+
+
+-- https://stackoverflow.com/questions/28283008/preserve-line-breaks-in-title-using-pandoc
+--- Transform a raw HTML element which contains only a `<br>`
+-- into a format-indepentent line break.
+-- function RawInline (el)
+--   if el.format:match '^html' and el.text:match '%<br ?/?%>' then
+--     return pandoc.LineBreak()
+--   end
+-- end
+
+
 
 return {
   { Meta = addCSS },
