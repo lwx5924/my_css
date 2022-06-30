@@ -1,6 +1,19 @@
 
+h1 {
+  font-size:72px;
+  color:#ffe5cf;
+}
 
 
+h2 {
+  font-size:48px;
+  color:#c6e8d6;
+}
+
+h3 {
+  font-size:36px;
+  color:#006bca;
+}
 
 table {
     padding: 0;
