@@ -1,13 +1,13 @@
 
 h1 {
   font-size:72px;
-  color:#ffe5cf;
+  color:#ff8f2f;
 }
 
 
 h2 {
   font-size:48px;
-  color:#c6e8d6;
+  color:#58c4c3;
 }
 
 h3 {
@@ -22,6 +22,82 @@ table {
 
 table tr:nth-child(2n) {
     background-color: #eee;
+}
+
+.table_hl_done {
+  background-color:#3b9a51;
+  color:#c1fccd;
+}
+
+.table_hl_no_value {
+  background-color:#e4e4e4;
+}
+
+
+.table_hl_failed {
+  background-color:#c73b44;
+  color:#ffb2ae;
+}
+
+/* not do*/
+.table_hl_warn {
+  background-color:#f9bc45;
+  color:#744412;
+}
+
+
+
+.data_title {
+  display:inline-block;
+  text-align:left;
+  width:100px;
+  font-weight: bold;
+  color:#ff942e;
+
+}
+
+.data_content {
+  display:inline-block;
+  text-align:left;
+  width:200px;
+  background-color:#4e9d2c;
+  color:#ffffff;
+}
+
+
+.data_diff_title {
+  display:inline-block;
+  text-align:left;
+  width:100px;
+  font-weight: bold;
+  color:#ff942e;
+
+}
+
+.data_diff_p1 {
+  display:inline-block;
+  text-align:left;
+  width:200px;
+  background-color:#ffbcba;
+}
+
+.data_diff_p2 {
+  display:inline-block;
+  text-align:left;
+  width:200px;
+  background-color:#a7edd6;
+}
+
+hr {
+  border:1 dashed #987cb9;
+  width: 100%;
+  color:#987cb9;
+  border-width: 1px;
+  border-style:solid;
+}
+
+hr.big {
+  border-width: 3px;
 }
 
 
